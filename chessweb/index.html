@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+            中国象棋
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="main.js"></script>
+	</head>
+	<body  id = "body">
+    <div class = "imformation-opponent" id = "imformation_opponent">
+        <div class = "opponent-icon" id = "opponent_icon">
+            <img src="images/couple_gay_head.ico" height="100%" width="100%">
+        </div>
+        <div class = "message-opponent" id = "message_opponent">
+            <h2>[业4-1] &nbsp;元发</h2>
+        </div>
+        <div class = "step-time" id = "step_time">
+            步时 &nbsp;00:30
+        </div>
+        <div class = "left-time" id = "left_time">
+            局时 &nbsp;14:56
+        </div>
+        <button class = "invite" id = "invite">邀请</button>
+    </div>
+    <div class="boardcss" id="board" >
+        <img src="images/filed.svg" height="100%" width="100%" alt="board" onclick="clickboard()">
+        <img src="images/b1.svg" class="chessman" id="b1" onclick="move(this)">
+        <img src="images/b2.svg" class="chessman" id="b2_1" onclick="move(this)">
+        <img src="images/b2.svg" class="chessman" id="b2_2" onclick="move(this)">
+        <img src="images/b3.svg" class="chessman" id="b3_1" onclick="move(this)">
+        <img src="images/b3.svg" class="chessman" id="b3_2" onclick="move(this)">
+        <img src="images/b4.svg" class="chessman" id="b4_1" onclick="move(this)">
+        <img src="images/b4.svg" class="chessman" id="b4_2" onclick="move(this)">
+        <img src="images/b5.svg" class="chessman" id="b5_1" onclick="move(this)">
+        <img src="images/b5.svg" class="chessman" id="b5_2" onclick="move(this)">
+        <img src="images/b6.svg" class="chessman" id="b6_1" onclick="move(this)">
+        <img src="images/b6.svg" class="chessman" id="b6_2" onclick="move(this)">
+        <img src="images/b7.svg" class="chessman" id="b7_1" onclick="move(this)">
+        <img src="images/b7.svg" class="chessman" id="b7_2" onclick="move(this)">
+        <img src="images/b7.svg" class="chessman" id="b7_3" onclick="move(this)">
+        <img src="images/b7.svg" class="chessman" id="b7_4" onclick="move(this)">
+        <img src="images/b7.svg" class="chessman" id="b7_5" onclick="move(this)">
+        <!--对方-->
+        <img src="images/r1.svg" class="chessman" id="r1" onclick="move(this)">
+        <img src="images/r2.svg" class="chessman" id="r2_1" onclick="move(this)">
+        <img src="images/r2.svg" class="chessman" id="r2_2" onclick="move(this)">
+        <img src="images/r3.svg" class="chessman" id="r3_1" onclick="move(this)">
+        <img src="images/r3.svg" class="chessman" id="r3_2" onclick="move(this)">
+        <img src="images/r4.svg" class="chessman" id="r4_1" onclick="move(this)">
+        <img src="images/r4.svg" class="chessman" id="r4_2" onclick="move(this)">
+        <img src="images/r5.svg" class="chessman" id="r5_1" onclick="move(this)">
+        <img src="images/r5.svg" class="chessman" id="r5_2" onclick="move(this)">
+        <img src="images/r6.svg" class="chessman" id="r6_1" onclick="move(this)">
+        <img src="images/r6.svg" class="chessman" id="r6_2" onclick="move(this)">
+        <img src="images/r7.svg" class="chessman" id="r7_1" onclick="move(this)">
+        <img src="images/r7.svg" class="chessman" id="r7_2" onclick="move(this)">
+        <img src="images/r7.svg" class="chessman" id="r7_3" onclick="move(this)">
+        <img src="images/r7.svg" class="chessman" id="r7_4" onclick="move(this)">
+        <img src="images/r7.svg" class="chessman" id="r7_5" onclick="move(this)">
+        <!--己方-->
+
+        <img src="images/frame-green.svg" class="frame-green" id="frame_green">
+    </div>
+    <div class = "imformation-self" id = "imformation_self">
+
+    </div>
+
+    </body>
+</html>
