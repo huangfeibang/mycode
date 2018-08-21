@@ -1,0 +1,5 @@
+﻿  源.cpp
+d:\上海大学资料\编程\图像识别\图像识别\源.cpp(8): error C2664: “HDC CreateDCW(LPCWSTR,LPCWSTR,LPCWSTR,const DEVMODEW *)”: 无法将参数 1 从“const char [8]”转换为“LPCWSTR”
+  d:\上海大学资料\编程\图像识别\图像识别\源.cpp(8): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+d:\上海大学资料\编程\图像识别\图像识别\源.cpp(47): error C2664: “HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)”: 无法将参数 1 从“const char *”转换为“LPCWSTR”
+  d:\上海大学资料\编程\图像识别\图像识别\源.cpp(47): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
