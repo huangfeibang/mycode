@@ -1,0 +1,1 @@
+chess_web.exe -v -n
