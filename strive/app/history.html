@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>上海大学自强队</title>
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="上海大学自强队">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="strive">
+  <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#2F3BA2">
+
+  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+  <!--
+  <link rel="canonical" href="http://www.example.com/">
+  -->
+
+  <!-- Material Design icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+  <!-- Material Design Lite page styles:
+  You can choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html
+  Format: material.color1-color2.min.css, some examples:
+  material.red-teal.min.css
+  material.blue-orange.min.css
+  material.purple-indigo.min.css
+  -->
+  <link rel="stylesheet" href="styles/icon.css">
+
+
+  <!-- Material Design Lite page styles:
+  You can choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html
+  Format: material.color1-color2.min.css, some examples:
+  material.red-teal.min.css
+  material.blue-orange.min.css
+  material.purple-indigo.min.css
+  -->
+  <link rel="stylesheet" href="js/material.indigo-pink.min.css">
+
+  <!-- Your styles -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/shutter.css">
+
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <style>
+    .top-buffer {
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+    .top-middle {
+      margin-top:60px;
+    }
+    .top-bottom{
+      margin-bottom:20px;
+    }
+    .pic1{
+      position:fixed;
+      right:300px;
+      bottom:310px;
+      width:400px;
+
+    }
+    .pic2{
+      position:fixed;
+      right:300px;
+      bottom:5px;
+      width:400px;
+    }
+  </style>
+
+</head>
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+    <img src="images/banner.png" height="145px"; width="996"; style="margin-left:auto;margin-right:auto;">
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+      <a href="index.html" class="mdl-layout__tab is-active">首页</h4>
+        <a href="intruduction.html" class="mdl-layout__tab">团队介绍</a>
+        <a href="rongyu/index.html" class="mdl-layout__tab">荣誉展示</a>
+        <a href="history.html#2017" class="mdl-layout__tab">历史回顾</a>
+        <a href="group.html" class="mdl-layout__tab">各组介绍</a>
+        <a href="match.html" class="mdl-layout__tab">校内比赛</a>
+    </div>
+  </header>
+
+  <div id="newws" >
+
+    <div class="mdl-layout__tab-panel" id="news" style="background-image: url(rongyu/image/backgroud.jpg);position: relative; top: 0px;">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="apple-touch-fullscreen" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="format-detection" content="telephone=no">
+      <link rel="stylesheet" type="text/css" href="styles/base.css">
+      <link rel="stylesheet" type="text/css" href="styles/tab.css">
+
+      <div class="aui-nav-content-box">
+        <div class="aui-nav-list-box">
+          <ul>
+            <li class="aui-current">
+              <a href="#">2017</a>
+            </li>
+            <li>
+              <a href="#asdf" target="_self">2016</a>
+            </li>
+            <li>
+              <a href="#">2015</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="aui-nav-list-tab" >
+          <div   id="2017">
+
+            <div class="aui-page-list" >
+              <div class="aui-page-img">
+                <a href="news/news17/0/0.html"">
+                  <img src="news/news17/0/page0.png">
+                </a>
+              </div>
+
+              <div class="aui-page-text";>
+                <h2>
+                  <a href="news/news17/0/0.html">让爱的芬芳永远萦绕在你我心间——记上海大学自强队上海自然博物馆志愿活动</a>
+                </h2>
+                <p>
+                  <em>2017年12月24日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list">
+              <div class="aui-page-img">
+                <a href="news/news17/1/1.html">
+                  <img src="news/news17/1/page1.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/1/1.html">雄关漫道真如铁，而今迈步从头越-记上海大学自强队纪念毛泽东同志诞辰124周年诗歌朗诵会</a>
+                </h2>
+                <p>
+                  <em>2017年12月27日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list">
+              <div class="aui-page-img">
+                <a href="news/news17/2/2.html">
+                  <img src="news/news17/2/page2.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/2/2.html">自强队临时党支部学习十九大精神交流会暨换届选举</a>
+                </h2>
+                <p>
+                  <em>2017年11月12日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list">
+              <div class="aui-page-img">
+                <a href="news/news17/3/3.html">
+                  <img src="news/news17/3/page3.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/3/3.html">上海大学自强队党支部的一场别开生面的汇报学习会</a>
+                </h2>
+                <p>
+                  <em>2017年6月6日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list">
+              <div class="aui-page-img">
+                <a href="news/news17/4/4.html">
+                  <img src="news/news17/4/page4.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/4/4.html">上海大学自强队成功举办第十二届智能车校内赛</a>
+                </h2>
+                <p>
+                  <em>2017年6月25日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/5/5.html">
+                  <img src="news/news17/5/page5.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/5/5.html">上大学子荣获2017海峡两岸机器人技术邀请赛一等奖</a>
+                </h2>
+                <p>
+                  <em>2017年6月25日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/6/6.html">
+                  <img src="news/news17/6/page6.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/6/6.html">自强队智能模型车与家庭服务机器人招新宣讲</a>
+                </h2>
+                <p>
+                  <em>2017年6月25日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/7/7.html">
+                  <img src="news/news17/7/page7.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/7/7.html">2017自强队“4+X”梯度培养计划</a>
+                </h2>
+                <p>
+                  <em>2017年12月30日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/8/8.html">
+                  <img src="news/news17/8/page8.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/8/8.html">M8搬迁简报
+                  </a>
+                </h2>
+                <p>
+                  <em>2017年7月18日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/9/9.html">
+                  <img src="news/news17/9/page9.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/9/9.html">自强队临时党支部学习十九大精神交流会暨换届选举</a>
+                </h2>
+                <p>
+                  <em>2017年12月30日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/10/10.html">
+                  <img src="news/news17/10/page10.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/10/10.html">不忘初心，砥砺前行—上海大学自强队临时党支部开展“七一”主题党日活动</a>
+                </h2>
+                <p>
+                  <em>2018年04月14日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/11/11.html">
+                  <img src="news/news17/11/page11.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/11/11.html">上海大学自强队举行党支部会议</a>
+                </h2>
+                <p>
+                  <em>2015年11年10日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/12/12.html">
+                  <img src="news/news17/12/page12.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/12/12.html">自强队受邀参加社区学院理工三组专场活动课</a>
+                </h2>
+                <p>
+                  <em>2017年12月20日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news17/13/13.html">
+                  <img src="news/news17/13/page13.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news17/13/13.html">祝贺自强队与上海大学附属学校共建创新试点班与科创实践基地</a>
+                </h2>
+                <p>
+                  <em>2018年1月16日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+          </div>
+
+
+          <div class="aui-nav-list-item" id="2016">
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/0/0.html">
+                  <img src="news/news16/0/page0.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/0/0.html">上海大学自强队成功举行“中国机器人大赛”家庭服务机器人赛后总结大会</a>
+                </h2>
+                <p>
+                  <em>2016.11.3</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/1/1.html">
+                  <img src="news/news16/1/page1.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/1/1.html">上海大学自强队举行关于上海教育展的展前会议</a>
+                </h2>
+                <p>
+                  <em>2016.9.13</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/2/2.html">
+                  <img src="news/news16/2/page2.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/2/2.html">自强队在中国机器人大赛服务机器人专项赛上摘金夺银</a>
+                </h2>
+                <p>
+                  <em>2016年5月25日</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/3/3.html">
+                  <img src="news/news16/3/page3.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/3/3.html">家庭服务机器人仿真比赛培训正式启动</a>
+                </h2>
+                <p>
+                  <em>2016.4.16</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/4/4.html">
+                  <img src="news/news16/4/page4.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/4/4.html">上海大学自强队举行回顾抗战——参观四行仓库活动</a>
+                </h2>
+                <p>
+                  <em>2016.3.31</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/5/5.html">
+                  <img src="news/news16/5/page5.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/5/5.html">复旦大学师生与上海大学自强队展开学习交流</a>
+                </h2>
+                <p>
+                  <em>2016.3.30</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/6/6.html">
+                  <img src="news/news16/6/page6.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/6/6.html">上海大学自强队举行关于上海教育展的展前会议</a>
+                </h2>
+                <p>
+                  <em>2016.3.30</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news16/7/7.html">
+                  <img src="news/news16/7/page7.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news16/7/7.html">上海大学自强队成功完成工业机器人培训</a>
+                </h2>
+                <p>
+                  <em>2016.3.17</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+          </div>
+
+          <div class="aui-nav-list-item" id="2015">
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news15/0/0.html">
+                  <img src="news/news15/0/page0.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news15/0/0.html">海大学自强队成功举行“RoboCup仿真机器人大赛”及“飞思卡尔智能汽车竞赛”颁奖仪式</a>
+                </h2>
+                <p>
+                  <em>2015.9.1</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="aui-page-list"style="height: 130px;">
+              <div class="aui-page-img">
+                <a href="news/news15/1/1.html">
+                  <img src="news/news15/1/page1.png">
+                </a>
+              </div>
+              <div class="aui-page-text">
+                <h2>
+                  <a href="news/news15/1/1.html">上大学子——心灵美好的人</a>
+                </h2>
+                <p>
+                  <em>2015.11.22</em>
+                  <em>来源：自强队通讯</em>
+                  <span class="aui-comment">22</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+          <br/><br/><br/>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      //tab切换
+      $(function(){
+        $('.aui-nav-list-box ul li').click(function(){
+          $(this).addClass('aui-current').siblings().removeClass('aui-current');
+          $('.aui-nav-list-tab>div:eq('+$(this).index()+')').show().siblings().hide();
+        })
+      });
+
+      //导航浮动
+      $(function(){
+        var _line=parseInt($(window).height()/3);
+        $(window).scroll(function(){
+          if ($(window).scrollTop()>60) {
+            $('.aui-nav-list-box').css({'position':'fixed','top':0})
+          }else{
+            $('.aui-nav-list-box').css({'position':'','top':''})
+          };
+        });
+
+      });
+    </script>
+  </div>
+
+
+  <footer class="mdl-mega-footer">
+    <div class="mdl-mega-footer--middle-section">
+      <div class="mdl-mega-footer--drop-down-section">
+        <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer--heading">中国自动化学会机器人竞赛委员会</h1>
+        <ul class="mdl-mega-footer--link-list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Updates</a></li>
+        </ul>
+      </div>
+      <div class="mdl-mega-footer--drop-down-section">
+        <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer--heading">上海大学教务处</h1>
+        <ul class="mdl-mega-footer--link-list">
+          <li><a href="#">上海大学教务处</a></li>
+          <li><a href="#">Tools</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+      <div class="mdl-mega-footer--drop-down-section">
+        <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer--heading">上海大学机自学院</h1>
+        <ul class="mdl-mega-footer--link-list">
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Patterns</a></li>
+          <li><a href="#">Usage</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contracts</a></li>
+        </ul>
+      </div>
+      <div class="mdl-mega-footer--drop-down-section">
+        <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+        <h1 class="mdl-mega-footer--heading">上海大学</h1>
+        <ul class="mdl-mega-footer--link-list">
+          <li><a href="#">Questions</a></li>
+          <li><a href="#">Answers</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      版权所有 © 上海大学 &nbsp; 沪ICP备09014157 &nbsp; 地址：上海市宝山区上大路99号（周边交通） &nbsp; 邮编：200444 &nbsp; <a href="http://www.shu.edu.cn/dhcx.htm" style="color: #fff">电话查询</a><br /><a href="/system/login.jsp" target="_self" style="text-decoration: none; color: #fff">技术支持</a>：
+      上海大学信息化工作办公室 &nbsp; 联系我们 &nbsp;&nbsp;<span onclick="tiaozhuan()" style="cursor: pointer">&nbsp;管理登录</span>
+    </div>
+  </footer>
+  </main>
+</div>
+<script src="js/material.min.js"></script>
+<!-- build:js scripts/main.min.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-XXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- Built with love using Web Starter Kit -->
+</body>
+</html>
